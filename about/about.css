@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins';
+    
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 1.4rem 4%;
+    background-color: #FFF6DC;
+    height: 120px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    width: 146px;
+    height: 150px;
+}
+
+.navbar .name-logo {
+    display: flex;
+    align-items: center;
+    color: #062D3E;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.navbar .navbar-nav ul,
+.navbar .navbar-nav li {
+    color: #062D3E;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0 0.2rem;
+}
+
+.navbar .navbar-nav ul {
+    list-style: none;
+    width: 100%;
+}
+
+.navbar .navbar-nav li {
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.navbar .navbar-nav a {
+    display: flex;
+    color: #062D3E;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar .navbar-nav li:hover a {
+    color: #ED5C01;
+}
+
+.navbar .navbar-nav li::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #ED5C01;
+    transform: scaleX(0);
+}
+
+.navbar .navbar-nav li:hover::after {
+    transform: scaleX(0.5);
+    transition: 0.2s linear;
+}
+
+.navbar-ekstra {
+    background-color: #ED5C01;
+    padding: 10px;
+    border-radius: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-ekstra a {
+    color: white;
+}
+
+/* NAVBAR END */
+
+.container {
+    margin: 150px 53px 0 20px;
+}
+
+.content-1 {
+    display: flex;
+}
+
+.Wellcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Wellcome p {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #062D3E;
+}
+
+.paragraf-content1 {
+    background-color: #ED5C01;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 25px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.content2-container .image-about2 img{
+    border-radius: 25px;
+}
+
+.content2-container p {
+    background-color: #189CAB;
+    border-radius: 25px;
+    font-size: 25px;
+    left: 30px;
+    width: 50vw;
+    padding: 135px 10px 110px 10px;  
+}
+
+.content3-container{
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+
+.content4-container p{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #ED5C01;
+    margin-bottom: 10px; 
+}
+
+.content4-container img{
+    margin-left: 50px;
+}
+
+
+
+

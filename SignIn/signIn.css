@@ -1,0 +1,96 @@
+body{
+    font-family: 'Poppins';
+    background-color: #C4C1A4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.tab-icon{
+    width: 500px;
+}
+
+.signIn-container{
+    background-color: #fffe;
+    box-shadow: 0px 2px 4px rgba(0, 0 ,0 ,0.1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.signIn-container .form-container .home{
+    text-decoration: none;
+    background-color: #8C7851;
+    color: black;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.form-container{
+    background-color: #ffff;
+    padding: 20px 15px;
+    margin-left:50px;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 360px;
+}
+
+.form-group{
+    margin-bottom: 5px;
+}
+
+.form-label{
+    display: block;
+}
+
+.form-input{
+    width: 274px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #999;
+}
+
+.forgot-group a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+.forgot-group a:hover{
+    color: #8C7851;
+}
+
+
+
+.signin-input{
+    width: 280px;
+    height: 30px;
+    background-color: #8C7851;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signin-input:hover{
+    color: white;
+}
+
+.create{
+    font-size: small;
+}
+
+.create a{
+    color: #8C7851;
+    text-decoration: none;
+}
+
+.banner-container img{
+    width: auto;
+    height: auto;
+    margin-left: 200px;
+}
