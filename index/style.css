@@ -232,9 +232,45 @@ border-radius: 50px;
 }
 /* content 2 end */
 
+/* content 3 start */
 
+/* content 3 end */
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #002A48;
+}
 
+.title h2{
+  font-size: 50px;
+  font-weight: bold;
+}
+.title p{
+  font-size: 20px;
+  font-weight: bold;
+}
 
+.paragraf-content3{
+margin-left: 15rem;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+.paragraf-content3 p{
+  color: #002A48;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.testimoni-tittle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #002A48;
+  font-size: 27px;
+  font-weight: bold;
+}
 /* footer */
 
 .footer {
