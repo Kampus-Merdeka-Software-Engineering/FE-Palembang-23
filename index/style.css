@@ -142,6 +142,7 @@ border-radius: 50px;
 /* banner section end */ 
 
 /* content 1 start */
+
 .contet1-container{
   background-image: url(image/content_1.png);
   height: 470px;
@@ -165,7 +166,71 @@ border-radius: 50px;
 }
 /* content 1 end */
 
+/* content 2 start */
+.content2-container{
+  background-color: #189CAB;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
+.content2-container p{
+  display: block;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main-content2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cat-container{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.cat-container img{
+  display: block;
+}
+
+.link-cat{
+  background-color: #002A48;
+  width: 22.5rem;
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.link-cat a{
+  color: white;
+}
+
+.dog-container img{
+  display: block;
+}
+
+.link-dog { 
+  background-color: #FBBD08;
+  width: 22.5rem;
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.link-dog a{
+  color: white;
+}
+/* content 2 end */
 
 
 
