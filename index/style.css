@@ -142,54 +142,29 @@ border-radius: 50px;
 /* banner section end */ 
 
 /* content 1 start */
-
 .contet1-container{
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-  
+  background-image: url(image/content_1.png);
+  height: 470px;
+  padding-top: 120px;
+  padding-left: 780px;
 }
 
-.left-content{
-  flex: 1;
-}
-.left-content img{
- 
-  width: auto;
-  border-radius: 0 10px 10px 0;
-}
-
-.right-content{
-  flex: 1;
-  background-color: #ED5C01;
-  padding: 100px 25px;
-  height: 460px;
-  border-radius: 10px 0 0 10px ;
-}
-
-.right-content p{
-  font-size: 50px;
+.content1 p{
+  font-size: 40px;
   color: #062D3E;
-  margin-bottom: 2%;
-  
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
-.right-content a{
+.content1 a{
   background-color: #062D3E;
   color: white;
-  padding: 10px 20px;
   font-size: 25px;
+  padding: 10px 20px;
   border-radius: 50px;
 }
-
-.right-content a:hover{
-  background-color: #062D3E;
-  color: #ED5C01;
-  transition-delay: 9ms;
-}
 /* content 1 end */
+
 
 
 
