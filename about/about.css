@@ -99,6 +99,24 @@ border-radius: 50px;
 .content-1 {
   display: flex;
 }
+.content-1 a{
+  color: black;
+}
+.content-1 a:hover {
+  color: #ED5C01;
+}
+
+.content-1 a::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #ED5C01;
+  transform: scaleX(0);
+}
+
+.content-1 a:hover::after {
+  transform: scaleX(0.5);
+  transition: 0.2s linear;
+}
 
 .Wellcome {
   display: flex;

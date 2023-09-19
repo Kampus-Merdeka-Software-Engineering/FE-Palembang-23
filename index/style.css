@@ -134,9 +134,14 @@ body{
 .text-3 a{
   background-color: #ED5C01;
   color: white;
+  font-size: 25px;
   border-radius: 50px;
   padding: 20px 50px 20px 50px;
   margin-top: 20px;
+}
+.text-3 a:hover{
+  font-size: 23px;
+  transform: all 0.5s ease;
 }
 
 .image-section img {
@@ -167,6 +172,11 @@ body{
   font-size: 25px;
   padding: 10px 20px;
   border-radius: 50px;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  font-size: 23px;
+  transform: all 0.5s ease;
 }
 /* content 1 end */
 
@@ -298,8 +308,8 @@ margin-bottom: 30px;
   width: 15rem;
   margin-bottom: 7rem;
   padding: 1.4rem;
-
 }
+
 
 .profile1{
   display: flex;
@@ -349,6 +359,7 @@ margin-bottom: 30px;
 }
 .faqs-section a:hover{
   font-size: 35px;
+  transition: all 0.5s ease;
 }
 
 /* faqs end */
