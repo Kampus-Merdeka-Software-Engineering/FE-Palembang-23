@@ -347,6 +347,10 @@ margin-bottom: 30px;
   font-weight: bold;
   color: #002A48;
 }
+.faqs-section a:hover{
+  font-size: 35px;
+}
+
 /* faqs end */
 
 /* footer */
