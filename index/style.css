@@ -91,6 +91,10 @@ border-radius: 50px;
 
 /* main page */
 /* banner section start */
+body{
+  background-color: #FFF6DB;
+}
+
 .home {
   background-color: #FFF6DB;
   width: 100%;
@@ -232,9 +236,10 @@ border-radius: 50px;
 }
 /* content 2 end */
 
-/* content 3 start */
 
-/* content 3 end */
+
+
+/* content 3 start */
 .title{
   display: flex;
   flex-direction: column;
@@ -270,7 +275,80 @@ margin-bottom: 30px;
   color: #002A48;
   font-size: 27px;
   font-weight: bold;
+  margin-bottom: 30px;
 }
+/* content 3 end */
+
+
+/* testimoni start */
+
+.testimoni-section{
+  display: flex;
+  justify-content: center;
+}
+
+.testimoni-container{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.testimoni1{
+  background-color: #002A48;
+  width: 15rem;
+  margin-bottom: 7rem;
+  padding: 1.4rem;
+
+}
+
+.profile1{
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-name img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.profile1{
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.name-section h2{
+  color: white;
+}
+.name-section p{
+  color: white;
+}
+
+.testimoni1 p{
+  color: white;
+}
+/* testimoni end */
+
+/* faqs start */
+.faqs-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.faqs-section{
+  background-color: #FBBD08;
+  padding: 10px 70px;
+  border-radius: 50px;
+}
+
+.faqs-section a{
+  font-size: 30px;
+  font-weight: bold;
+  color: #002A48;
+}
+/* faqs end */
+
 /* footer */
 
 .footer {
