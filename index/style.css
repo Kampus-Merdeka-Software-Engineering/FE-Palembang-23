@@ -218,6 +218,13 @@ text-align: center;
 }
 .link-cat a{
   color: white;
+  font-size: 20px;
+  transition: all 0,3 ease;
+}
+
+.buttonCat:hover{
+  color: #000;
+  transform: all 0.5s ease;
 }
 
 .dog-container img{
@@ -235,7 +242,15 @@ text-align: center;
 }
 .link-dog a{
   color: white;
+  font-size: 20px;
+  transition: all 0,3 ease;
 }
+
+.buttonDog:hover{
+  color: #000;
+  transform: all 0.5s ease;
+}
+
 /* content 2 end */
 
 
