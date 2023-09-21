@@ -107,11 +107,19 @@ border-radius: 50px;
   width: 100%;
   background-color: #FFF6DB;
 }
+.box1{
+  width:95px;
+  height:62px;
+  background:#003459;
+  border-radius: 5px;
+  text-align: center;
+  margin-right:2rem;
+  color: #FFF6DB;
+  }
 
 .picture2{
   height: 488px;
   width: 439px;
- 
   margin-top: 7rem;
   margin-left: 7rem;
 }
@@ -119,18 +127,20 @@ border-radius: 50px;
 .conten1 .right{
 margin-left: 7rem;
 margin-top: 10rem;
-margin-right: 4rem;
+margin-right:2rem;
 color: #003459;
 }
 
 .right h2{
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 700; 
+  display: flex;
 }
-
+  
 .right p{
   font-size: 24px;
   font-weight: 500;
+  margin-top: 2rem;
 }
 
 .conten2{
@@ -139,6 +149,17 @@ color: #003459;
   width: 100%;
   background-color: #FBBD08;
 }
+
+.box2{
+  width:62px;
+  height:62px;
+  background:#003459;
+  border-radius: 5px;
+  text-align: center;
+  margin-right:2rem;
+  color: #FBBD08;
+  }
+
 
 .picture3{
   height: 488px;
@@ -157,11 +178,13 @@ color: #003459;
 .left h2{
   font-size: 40px;
   font-weight: 700;
+  display: flex;
 }
 
 .left p{
   font-size: 24px;
   font-weight: 500;
+  margin-top: 2rem;
 }
 
 .conten3{
@@ -170,6 +193,16 @@ color: #003459;
   width: 100%;
   background-color: #ED5C01;
 }
+
+.box3{
+  width:62px;
+  height:62px;
+  background:#ffff;
+  border-radius: 5px;
+  text-align: center;
+  margin-right:2rem;
+  color:#ED5C01;
+  }
 
 .picture4{
   height: 488px;
@@ -185,12 +218,36 @@ margin-right: 4rem;
 color: #ffff;
 }
 
+.right h2{
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+}
+  
+
+.right p{
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
 .conten4{
   display: flex;
   height: 761px;
   width: 100%;
   background-color: #189CAB;
 }
+
+.box4{
+  width:62px;
+  height:62px;
+  background:#ffff;
+  border-radius: 5px;
+  text-align: center;
+  margin-right:2rem;
+  color:#189CAB;
+  }
+
 
 .picture5{
   height: 488px;
@@ -206,12 +263,35 @@ margin-left: 4rem;
 color: #ffff;
 }
 
+.left h2{
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+}
+
+.left p{
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+
 .conten5{
   display:flex;
   height: 700px;
   width: 100%;
   background-color: #003459;
 }
+
+.box5{
+  width:62px;
+  height:62px;
+  background:#ffff;
+  border-radius: 5px;
+  text-align: center;
+  margin-right:2rem;
+  color:#003459;
+  }
 
 .picture6{
   height: 488px;
@@ -228,6 +308,18 @@ margin-right: 4rem;
 color: #ffff;
 }
 
+.right h2{
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+}
+  
+
+.right p{
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 2rem;
+}
 
 /* footer */
 
