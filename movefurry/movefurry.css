@@ -91,6 +91,7 @@ border-radius: 50px;
 
 /* main page */
 .paragraf1{
+  margin-top: 115px;
   height: 544px;
   width: 100%;
   display:flex;
