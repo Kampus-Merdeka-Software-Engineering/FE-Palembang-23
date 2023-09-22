@@ -14,9 +14,7 @@
   text-decoration: none;
 }
 
-body {
-  font-family: Baloo, sans-serif;
-}
+
 
 
 .navbar {
@@ -107,7 +105,7 @@ body{
 }
 
 .banner-contain{
-  background-image: url(image/bannerindex.png);
+  background-image: url(../assets/index/bannerindex.png);
   height: 850px;
   padding-top: 350px;
   padding-left: 2rem;
@@ -152,7 +150,7 @@ text-align: center;
 /* content 1 start */
 
 .contet1-container{
-  background-image: url(image/content_1.png);
+  background-image: url(../assets/index/content_1.png);
   height: 470px;
   padding-top: 120px;
   padding-left: 780px;

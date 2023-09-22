@@ -99,7 +99,7 @@ body {
 
 /* banner */
 .banner-container p {
-    background-image: url(image/bannerDog.png);
+    background-image: url(../assets/serviceInformation/image/bannerDog.png);
     height: 540px;
     margin-top: 120px;
     font-size: 5rem;
@@ -153,7 +153,7 @@ body {
 /* article end */
 
 .article-banner{
-    background-image: url(image/bannerDog2.png);
+    background-image: url(../assets/serviceInformation/image/bannerDog2.png);
     height: 540px;
     padding: 50px 50px;
 }
