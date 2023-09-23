@@ -1,3 +1,6 @@
+// membuat pindah page setelas isi form
+
+
 document.getElementById("myForm").addEventListener("submit", function(event) {
     event.preventDefault();
 
