@@ -145,14 +145,14 @@ body{
   justify-content: center;
 }
 
-.form {
+#myForm {
   background-color: #189CAB;
   padding: 20px 100px;
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-.form p {
+#myForm p {
   font-size: 35px;
   border-bottom: 1px solid black;
   margin-top: 30px;
