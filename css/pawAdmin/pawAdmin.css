@@ -25,31 +25,16 @@ body{
 .logo-container {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 120px;
 }
 
 .p-logo h2{
     color: #062D3E;
 }
 .p-logo p {
-    font-size: 10px;
+    font-size: 12px;
     color: #9E9FA4;
     text-align: end;
-}
-
-.dashboard {
-    margin-bottom: 50px;
-}
-
-.dashboard i {
-    margin-right: 10px;
-    color: #062D3E;
-}
-
-.dashboard a {
-    color: #062D3E;
-    font-size: 20px;
-    font-weight: bold;
 }
 
 .delivery {
@@ -77,7 +62,7 @@ body{
 }
 
 .list-sidebar ul li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     list-style-type: none;
 
 }
