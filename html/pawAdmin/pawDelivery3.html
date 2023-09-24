@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pawsShip</title>
+    <link class="tab-icon" rel="icon" type="image/x-icon" href="../assets/index/icon.png">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="../../css/pawAdmin/pawAdmin.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+</head>
+
+<body>
+    <div class="sidebar-container">
+        <div class="logo-container">
+            <div class="logo-image">
+                <img src="../../assets/index/MAIN_LOGO.png" class="logo" alt="">
+            </div>
+            <div class="p-logo">
+                <h2>Paws Ship</h2>
+                <p>Pets For Best</p>
+            </div>
+        </div>
+        <div class="side-contain">
+            <div class="dashboard">
+                <a href=""><i class="fa-solid fa-grip-vertical"></i></i>Dashboard</a>
+            </div>
+            <div class="delivery">
+                <p><i class="fa-solid fa-truck"></i> Delivery</p>
+            </div>
+            <div class="list-sidebar">
+                <ul>
+                    <li><a href="pawWaiting1.html">Waiting For Confirmation</a></li>
+                    <li><a href="pawProcessing2.html">In Processing</a></li>
+                    <li><a href="pawDelivery3.html">In Delivery</a></li>
+                    <li><a href="pawCompleted4.html">Completed</a></li>
+                    <li><a href="pawCancelled5.html">Cancelled</a></li>
+                </ul>
+            </div>
+            <div class="logout">
+                <button id="logoutButton"><i class="fa-solid fa-right-from-bracket"></i>Logout</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-content">
+        <div class="logo-container2">
+            <div class="logo-image2">
+                <img src="../../assets/index/MAIN_LOGO.png" class="logo" alt="">
+            </div>
+            <div class="p-logo2">
+                <h2>paws ship Admin</h2>
+                <h2>In Delivery</h2>
+            </div>
+        </div>
+
+        <div class="input-container">
+            <label class="isi" for="trackingNumber">Enter Tracking Number</label>
+            <input class="isi" type="text" id="trackingNumber" placeholder="Enter tracking number">
+            <button class="isi" id="trackButton"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></button>
+        </div>
+        <div class="information-container">
+            <div id="trackingInfo" class="information">
+                <div id="result" class="resultInfo">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Receipt Number</th>
+                                <th>Status</th>
+                                <th>Current Location</th>
+                                <th>Detail</th>
+                            </tr>
+                        </thead>
+        
+                        <tbody>
+                            <tr>
+                                <td id="No"></td>
+                                <td id="Receipt Number"></td>
+                                <td id="Status"></td>
+                                <td id="Current Location"></td>
+                                <td id="Detail"></td>
+                            </tr>
+                            <tr>
+                                <td id="No"></td>
+                                <td id="Receipt Number"></td>
+                                <td id="Status"></td>
+                                <td id="Current Location"></td>
+                                <td id="Detail"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- Tracking information will be displayed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
