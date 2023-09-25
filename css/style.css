@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1150px) {
   body {
-    display : none;
+    display: none;
   }
 }
 
@@ -89,13 +89,13 @@
 .navbar .navbar-extra a {
   color: #ffff;
   background-color: #ED5C01;
-border-radius: 50px;
+  border-radius: 50px;
   padding: 10px 25px 10px 25px;
 }
 
 /* main page */
 /* banner section start */
-body{
+body {
   background-color: #FFF6DB;
 }
 
@@ -104,7 +104,7 @@ body{
   width: 100%;
 }
 
-.banner-contain{
+.banner-contain {
   background-image: url(../assets/index/bannerindex.png);
   height: 850px;
   padding-top: 350px;
@@ -112,27 +112,27 @@ body{
 
 }
 
-.banner{
-width: 40rem;
-text-align: center;
+.banner {
+  width: 40rem;
+  text-align: center;
 }
 
-.banner p{
+.banner p {
   font-size: 70px;
   font-weight: bold;
 }
 
-.animal{
+.animal {
   color: #ED5C01;
   font-weight: bold;
 }
 
-.delivery{
+.delivery {
   color: #062D3E;
   font-weight: bold;
 }
 
-.banner a{
+.banner a {
   background-color: #ED5C01;
   font-weight: bold;
   color: white;
@@ -141,29 +141,31 @@ text-align: center;
   border-radius: 50px;
   transition: all 0.3s ease;
 }
-.button-banner:hover{
+
+.button-banner:hover {
   font-size: 23px;
   transform: all 0.5s ease;
 }
-/* banner section end */ 
+
+/* banner section end */
 
 /* content 1 start */
 
-.contet1-container{
+.contet1-container {
   background-image: url(../assets/index/content_1.png);
   height: 470px;
   padding-top: 120px;
   padding-left: 780px;
 }
 
-.content1 p{
+.content1 p {
   font-size: 40px;
   color: #062D3E;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
-.content1 a{
+.content1 a {
   background-color: #062D3E;
   color: white;
   font-size: 25px;
@@ -171,20 +173,22 @@ text-align: center;
   border-radius: 50px;
   transition: all 0.3s ease;
 }
-.button:hover{
+
+.button:hover {
   font-size: 23px;
   transform: all 0.5s ease;
 }
+
 /* content 1 end */
 
 /* content 2 start */
-.content2-container{
+.content2-container {
   background-color: #189CAB;
   padding: 20px;
   margin-bottom: 10px;
 }
 
-.content2-container p{
+.content2-container p {
   display: block;
   font-size: 35px;
   color: white;
@@ -194,7 +198,7 @@ text-align: center;
   margin-bottom: 20px;
 }
 
-.main-content2{
+.main-content2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -202,16 +206,17 @@ text-align: center;
   margin-bottom: 20px;
 }
 
-.cat-container{
+.cat-container {
   display: block;
   justify-content: center;
   align-items: center;
 }
-.cat-container img{
+
+.cat-container img {
   display: block;
 }
 
-.link-cat{
+.link-cat {
   background-color: #002A48;
   width: 22.5rem;
   text-align: center;
@@ -220,22 +225,23 @@ text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.link-cat a{
+
+.link-cat a {
   color: white;
   font-size: 20px;
-  transition: all 0,3 ease;
+  transition: all 0, 3 ease;
 }
 
-.buttonCat:hover{
+.buttonCat:hover {
   color: #000;
   transform: all 0.5s ease;
 }
 
-.dog-container img{
+.dog-container img {
   display: block;
 }
 
-.link-dog { 
+.link-dog {
   background-color: #FBBD08;
   width: 22.5rem;
   text-align: center;
@@ -244,13 +250,14 @@ text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.link-dog a{
+
+.link-dog a {
   color: white;
   font-size: 20px;
-  transition: all 0,3 ease;
+  transition: all 0, 3 ease;
 }
 
-.buttonDog:hover{
+.buttonDog:hover {
   color: #000;
   transform: all 0.5s ease;
 }
@@ -261,7 +268,7 @@ text-align: center;
 
 
 /* content 3 start */
-.title{
+.title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -269,27 +276,29 @@ text-align: center;
   color: #002A48;
 }
 
-.title h2{
+.title h2 {
   font-size: 50px;
   font-weight: bold;
 }
-.title p{
+
+.title p {
   font-size: 20px;
   font-weight: bold;
 }
 
-.paragraf-content3{
-margin-left: 15rem;
-margin-top: 40px;
-margin-bottom: 30px;
+.paragraf-content3 {
+  margin-left: 15rem;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
-.paragraf-content3 p{
+
+.paragraf-content3 p {
   color: #002A48;
   font-size: 25px;
   font-weight: bold;
 }
 
-.testimoni-tittle{
+.testimoni-tittle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -298,23 +307,24 @@ margin-bottom: 30px;
   font-weight: bold;
   margin-bottom: 30px;
 }
+
 /* content 3 end */
 
 
 /* testimoni start */
 
-.testimoni-section{
+.testimoni-section {
   display: flex;
   justify-content: center;
 }
 
-.testimoni-container{
+.testimoni-container {
   display: flex;
   justify-content: space-around;
   width: 70%;
 }
 
-.testimoni1{
+.testimoni1 {
   background-color: #002A48;
   width: 15rem;
   margin-bottom: 7rem;
@@ -322,53 +332,56 @@ margin-bottom: 30px;
 }
 
 
-.profile1{
+.profile1 {
   display: flex;
   justify-content: space-around;
 }
 
-.profile-name img{
+.profile-name img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
 }
 
-.profile1{
+.profile1 {
   border-bottom: 1px solid white;
   margin-bottom: 10px;
 }
 
-.name-section h2{
-  color: white;
-}
-.name-section p{
+.name-section h2 {
   color: white;
 }
 
-.testimoni1 p{
+.name-section p {
   color: white;
 }
+
+.testimoni1 p {
+  color: white;
+}
+
 /* testimoni end */
 
 /* faqs start */
-.faqs-container{
+.faqs-container {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
 }
 
-.faqs-section{
+.faqs-section {
   background-color: #FBBD08;
   padding: 10px 70px;
   border-radius: 50px;
 }
 
-.faqs-section a{
+.faqs-section a {
   font-size: 30px;
   font-weight: bold;
   color: #002A48;
 }
-.faqs-section a:hover{
+
+.faqs-section a:hover {
   font-size: 35px;
   transition: all 0.5s ease;
 }
