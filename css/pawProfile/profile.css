@@ -179,6 +179,8 @@ body {
   align-items: center;
   background-color: #FDFDFD;
   padding: 50px;
+  width: 43.2rem;
+  height: 25rem;
   border-radius: 35px;
 }
 
@@ -188,10 +190,11 @@ body {
   font-weight: bold;
 }
 
-.profile-section p {
+.profile-section span {
   font-size: 35px;
   color: #062D3E;
   font-weight: bold;
+  display: block;
 }
 
 .profile-image {
@@ -214,16 +217,105 @@ body {
 
 .change {
   text-align: end;
+
 }
 
-.change a{
+.change a {
   font-weight: bold;
   color: #062D3E;
   font-size: 16px;
   transition: all 0.3s ease;
 }
 
-.change a:hover{
-  font-size: 15px;
+.change a:hover {
+  font-size: 15.8px;
   transform: all 0.5s ease;
+}
+
+
+/* change section */
+.profile-form {
+  background-color: #FDFDFD;
+  
+}
+
+.changeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.profileChange {
+  background-color: #FDFDFD;
+  border-radius: 35px;
+  width: 43.2rem;
+  height: 25rem;
+  padding: 53px;
+}
+
+.profileChange h1{
+  font-size: 35px;
+  font-weight: bold;
+  color: #062D3E;
+}
+
+#edit-profile-form label {
+  font-size: 15px;
+  font-weight: bold;
+  color: #062D3E;
+  margin-top: 40px;
+}
+
+#edit-profile-form input {
+  border-bottom: 0.9px solid #062D3E;
+}
+
+
+.tombolSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+ 
+#edit-profile-form{
+  margin-top: 30px;
+}
+
+#edit-profile-form label,
+input {
+  display: block;
+  width: 20rem;
+}
+
+.backTo button{
+ right: 10px;
+}
+
+.backTo a,
+button {
+  font-weight: bold;
+  color: #062D3E;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color: #FDFDFD;
+}
+
+.backTo a:hover {
+  font-size: 15.8px;
+  transform: all 0.5s ease;
+}
+
+.tombolSection button:hover {
+  font-size: 15.8px;
+  transform: all 0.5s ease;
+}
+
+.page {
+  display: none;
+}
+.page.active {
+  display: block;
 }
