@@ -110,8 +110,8 @@ body {
   align-items: center;
 }
 
-.backHome,
-a {
+.backHome a,
+p {
   color: #000;
 }
 .backHome a:hover{
@@ -143,10 +143,6 @@ a {
 
 .teks1 span {
   text-decoration: underline;
-}
-
-.relocating{
-  color: #003459;
 }
 
 img.right {
