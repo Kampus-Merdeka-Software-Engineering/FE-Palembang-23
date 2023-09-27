@@ -97,18 +97,54 @@
   
   /* navbar end */
 
-  img.left{
-    float:left;
-    margin:5px;
+  .upper-container{
+    margin-left: 4rem;
+    color:#003459;
+    background-color: #FFF6DB;
+    
+  }
+  
+  .backHome{
+    margin-top: 150px;
+    display: flex;
+   
+  }
+  
+  .backHome a{
+    text-decoration: underline;
   }
 
+  .teks1{
+    margin-top: 2rem;
+    font-weight: bold;
+  }
 
-  /* footer */
+  .teks1 p{
+    margin-top: 2rem;
+  }
+
+  .teks1 li{
+    margin-top: 10px;
+  }
+
+  .teks1 span{
+    text-decoration: underline;
+  }
+
+  img.right{
+    float: right;
+    margin: 5px;
+}
+
+/* footer */
   
-  .footer {
+.footer {
     background-color: #002A48;
-    padding: 40px;
+  
     padding-right: 20px;
+    padding: 40px;
+    margin-top: 10rem;
+   
   }
   
   .footer-container {
