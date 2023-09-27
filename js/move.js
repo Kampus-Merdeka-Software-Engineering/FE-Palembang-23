@@ -1,3 +1,14 @@
+        // membuat dropdown menu profile
+
+
+        let subMenu = document.getElementById("subMenu");
+
+
+        function toggleMenu() {
+            subMenu.classList.toggle("open-menu");
+        }
+
+
 // membuat pindah page setelas isi form
 
 
@@ -24,6 +35,6 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
     var message = document.getElementById("message").value;
 
     // Redirect to another page
-    var destination = "thankyou.html";
-    window.location.href = "thankyou.html"
+    var destination = "thankyouAfter.html";
+    window.location.href = "thankyouAfter.html"
 });

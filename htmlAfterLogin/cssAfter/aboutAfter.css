@@ -20,6 +20,7 @@ body {
 }
 
 
+/* NAVBAR DROPDOWN START */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -89,12 +90,79 @@ body {
   transition: 0.2s linear;
 }
 
-.navbar .navbar-extra a {
+.navbar .navbar-extra img {
   color: #ffff;
   background-color: #ED5C01;
-border-radius: 50px;
-  padding: 10px 25px 10px 25px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  padding: 5px;
+  cursor: pointer;
 }
+
+/* dropdown */
+.sub-menu-wrap {
+  position: absolute;
+  right: 8%;
+  top: 13%;
+  width: 250px;
+  max-height: 0px;
+  overflow: hidden;
+  position: fixed;
+  transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu {
+  max-height: 400px;
+}
+
+.textt {
+  color: #062D3E;
+}
+
+.textt h2 {
+  font-size: 20px;
+}
+
+.textt p {
+  font-size: 10px;
+}
+
+.user-info {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-info img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+
+.sub-menu {
+  background-color: #FDFDFD;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.sub-menu-link {
+  display: flex;
+  justify-content: end;
+}
+
+.sub-menu-link p {
+  color: #062D3E;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+/* dropdown end */
+/* NAVBAR DROPDOWN END */
 
 /* main page */
 
