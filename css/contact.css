@@ -16,6 +16,7 @@
   
   body {
     font-family: Baloo, sans-serif;
+    background-color: #FFF6DB;
   }
   
   
@@ -98,7 +99,6 @@
   /* navbar end */
 
   .upper-container{
-   background-color: #FFF6DB;
     margin-left: 4rem;
     color:#003459;
     
