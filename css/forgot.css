@@ -6,7 +6,9 @@
 
 body{
     font-family: 'Poppins';
-    background-color: #C4C1A4;
+    font-family: 'Poppins';
+    background-image: url(../assets/signIn/bg_signIn.png);
+    background-size: 100vw 100vh;
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -16,7 +18,6 @@ body{
 }
 
 .forgot-container{
-    background-color: #fffe;
     box-shadow: 0px 2px 4px rgba(0, 0 ,0 ,0.1);
     border-radius: 20px;
     display: flex;
@@ -29,7 +30,7 @@ body{
     padding: 20px;
     margin-left:50px;
     margin-right: 70px;
-    border: 1px solid black;
+    box-shadow: 0px 1px 4px rgba(0, 0 ,0 ,1);
     border-radius: 15px;
 }
 
@@ -44,17 +45,16 @@ body{
 .form-input{
     width: 274px;
     height: 25px;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: #999;
+    border: none;
+    border-bottom: 1px solid black;
 }
 
 .forgot-input{
     width: 280px;
     height: 30px;
     margin-top: 15px;
-    background-color: #8C7851;
-    border: 1px solid black;
+    background-color: #ED5C01;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -63,19 +63,18 @@ body{
 }
 
 .backTo{
-    font-size: small;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .backTo a{
-    color: #8C7851;
+    margin-top: 10px;
+    color: #ED5C01;
     text-decoration: none;
+    font-size: 13px;
 }
-
-img{
-    width: 500px;
-    height: 600px;
-    object-fit: cover;
-    border-radius: 0 20px 20px 0;
+.backTo a:hover{
+    transform:scale(0.9);
+    transition: 0.2s linear;
+    
 }
