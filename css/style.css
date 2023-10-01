@@ -140,9 +140,29 @@ body {
   padding: 10px 20px;
   border-radius: 50px;
   transition: all 0.3s ease;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 7rem;
+  width: 25rem;
 }
 
 .button-banner:hover {
+  font-size: 23px;
+  transform: all 0.5s ease;
+}
+
+.banner .button-resi {
+  background-color: white;
+  font-weight: bold;
+  color: #ED5C01;
+  border: 1px solid #ED5C01;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.button-resi:hover {
   font-size: 23px;
   transform: all 0.5s ease;
 }
