@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawsShip</title>
+    <link class="tab-icon" rel="icon" type="image/x-icon" href="../../assets/index/icon.png">
+    <link rel="stylesheet" href="../cssAfter/contactAfter.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+
+<body>
+    <!-- navbar dropdown start -->
+    <!-- navbar start -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="#" class="name-logo">
+                <img src="../../assets/index/MAIN_LOGO.png" class="logo" alt="" />Paws Ship
+            </a>
+        </div>
+
+        <div class="navbar-nav">
+            <ul>
+                <li><a href="indexAfter.html">Home</a></li>
+                <li><a href="priceAfter.html">Price</a></li>
+                <li><a href="aboutAfter.html">About</a></li>
+                <li><a href="contactAfter.html">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="navbar-extra">
+            <img src="../../assets/profile/profileDefault.png" alt="" onclick="toggleMenu()">
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- dropdown start -->
+    <div class="sub-menu-wrap" id="subMenu">
+        <div class="sub-menu">
+            <div class="user-info">
+                <img src="../../assets/profile/profileDefault.png" alt="">
+                <div class="textt">
+                    <h2>Paws User</h2>
+                    <p>admin@gmail.com</p>
+                </div>
+            </div>
+            <hr>
+
+            <a href="../../html/pawProfile/profile.html" class="sub-menu-link">
+                <p>Profile</p>
+            </a>
+            <a href="../../html/pawUser/statusInfo.html" class="sub-menu-link">
+                <p>Pemesanan</p>
+            </a>
+            <a href="../../index.html" class="sub-menu-link">
+                <p>Log Out</p>
+            </a>
+
+        </div>
+    </div>
+    <!-- dropdownend -->
+    <!-- navbar dropdown end -->
+
+    <!-- upper -->
+    <div class="upper-container"> 
+        <div class="backHome">
+            <a href="../index.html">Home</a>
+            <p> > Contact</p>
+        </div>
+       <div class="teks1">
+        
+            <h1> Contact </h1>
+            <p>
+                Do you need full assistance to move your pet? Don't hesitate to
+                contact our team! Find contact 
+                information below and contact us for proper service. 
+                We are ready to help you!
+            </p>
+
+            <li>Already collaborating with a Paws Ship consultant? 
+                Kindly reach out to them directly.</li>
+            
+            <li>If you prefer to contact us by phone, 
+                please dial our main line at <span>0812 5678 5210.</span></li>
+        
+            <li>you require comprehensive assistance with relocating your pet,
+                 kindly complete <span>this form.</span> </li>
+        
+                 <img class="right" src="../../assets/contact/imagecontact.png" alt="imagecontact.png"/>
+       </div>
+    </div>    
+<!--upper end--> 
+    
+
+
+<!--footer-->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="row">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <a href="#" class="name-logo">
+                        <img src="../../assets/index/MAIN_LOGO.png" class="logo" alt="" />Paws Ship
+                    </a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Find Us</h4>
+                <ul>
+                    <li>Group 23 Palembang</li>
+                    <li>RevoU Teach Academy</li>
+                    <li>www.pawsship.com</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Service</h4>
+                <ul>
+
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="fixed-footer">
+    <div>Copyright & copy; 2023 Paws Ship.com
+    </div>
+</div>
+<!-- footer end-->
+
+<script>
+    // membuat dropdown menu profile
+
+
+    let subMenu = document.getElementById("subMenu");
+
+
+    function toggleMenu() {
+        subMenu.classList.toggle("open-menu");
+    }
+</script>
+</body>
+
+</html>
