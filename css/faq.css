@@ -1,8 +1,4 @@
-@media only screen and (max-width: 1150px) {
-    body {
-      display : none;
-    }
-  }
+
   
   * {
     font-family: 'poppins';
@@ -140,13 +136,14 @@
   font-weight: bold;
   margin-bottom: 4rem;
   display: flex;
+  display: flex;
   font-size: 35px;
 }
 
 .teks2 img{
   width: 437px;
   height: 390px;
-  float: right;
+
   margin: 5px;
 }
 
@@ -154,6 +151,22 @@
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 768px) {
+  .teks2 {
+    display: block;
+
+  }
+
+  .left p,
+  span{
+    font-size: 15px;
+  }
+
+  .teks2 img{
+    width: 200px;
+    height: 200px;
+  }
+}
   
   
   

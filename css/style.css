@@ -1,9 +1,3 @@
-@media only screen and (max-width: 1150px) {
-  body {
-    display: none;
-  }
-}
-
 * {
   font-family: 'poppins';
   margin: 0;
@@ -52,6 +46,12 @@
   margin: 0 0.2rem;
 }
 
+/* ambil */
+.burger {
+  display: none;
+}
+/* ---- */
+
 .navbar .navbar-nav ul {
   list-style: none;
   width: 100%;
@@ -92,6 +92,75 @@
   border-radius: 50px;
   padding: 10px 25px 10px 25px;
 }
+
+/* ambil */
+@media only screen and (max-width: 768px) {
+
+  .burger {
+    display: block;
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .name-logo img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .navbar .name-logo {
+    font-size: 15px;
+  }
+
+  .burger .line {
+    width: 30px;
+    height: 3px;
+    background: #555;
+    margin: 6px 0;
+  }
+
+  .navbar-nav {
+    background-color: #FFF6DC;
+    height: 0;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    transition: 0.5s;
+    margin-top: 10px;
+  }
+
+  .navbar-nav .action {
+    height: 450px;
+  }
+
+  .navbar .navbar-nav ul,
+  .navbar .navbar-nav li {
+    background-color: #FFF6DC;
+    display: block;
+    text-align: center;
+    width: 100vw;
+    text-align: center;
+    margin:0 auto 0 auto;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .navbar .navbar-nav ul,
+  .navbar-nav.active li{
+    opacity: 1;
+  }
+
+
+  .navbar-nav ul li a {
+    margin-bottom: 12px;
+    
+  }
+
+  .navbar-extra {
+    font-size: 5px;
+  }
+}
+/* --- */
 
 /* main page */
 /* banner section start */
@@ -165,6 +234,26 @@ body {
 .button-resi:hover {
   font-size: 23px;
   transform: all 0.5s ease;
+}
+
+@media only screen and (max-width: 768px) {
+  body{
+    width: 100vw;
+  }
+
+  .banner-contain {
+    background-image: url(../assets/index/bannerindex.png) ;
+    height: 850px;
+    padding-top: 350px;
+    padding-left: 2rem;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  .banner p {
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
 
 /* banner section end */
